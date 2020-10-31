@@ -3,9 +3,9 @@
 int main()
 {
     int x=50,y=100,temp;
-    temp=x;
-    x=y;
-    y=temp;
+    temp=x;//temp=50
+    x=y;//x=100
+    y=temp;//y=50
      printf("Value of x %d\n",x);
      printf("Value of y %d\n",y);
      return 0;
